@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="\static\styling.css">
+      </head>
+    <body>
+        <div style="background-image: url('water3.jpg');">
+        <center><div class="header"></div></center>
+        <center><div class="header1"><font color="#FF0000" font-family="Fascinate Inline"</div></center>
+            <br><br><br><br>
+            <form class="main" action="/login" method="post">
+                <br>
+                <center id="title"> Predicting And Analysing Urban<br> Water Quality Using Machine Learning </center><br>
+                <center>
+                    <input type="text" name="year" placeholder="Enter year"/><br><br>
+                    <input type="text" name="do" placeholder="Enter D.O"/><br><br>
+                    <input type="text" name="ph" placeholder="Enter ph"/><br><br>
+                    <input type="text" name="co" placeholder="Enter conductivity"/><br><br>
+                    <input type="text" name="bod" placeholder="Enter B.O.D"/><br><br>
+                    <input type="text" name="na" placeholder="Enter Nitratenon"/><br><br>
+                    <input type="text" name="tc" placeholder="Enter Total Coliform"/><br><br>
+                    <input type="submit" class="logbtn" value="Predict"/><br>
+                </center>
+                <div class="bor"><center><b><font color="black" size=5>{{showcase}}</font></b></center></div>
+            </form>
+        </div>
+    </body>
+</html>
